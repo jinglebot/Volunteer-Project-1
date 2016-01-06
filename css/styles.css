@@ -1,0 +1,23 @@
+body {
+font-family: 'EB Garamond', serif;
+}
+
+
+
+.jumbotron {
+	background-color: blue;
+	color: white;
+}
+
+.jumbotron h3 {
+	font-style: italic;
+}
+
+span {
+	margin: 0 0.5em;
+}
+
+.well {
+	background-color: antiqueblue;
+	color: cornflowerblue;
+}
