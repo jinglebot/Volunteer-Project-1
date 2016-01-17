@@ -2,8 +2,6 @@ body {
 font-family: 'EB Garamond', serif;
 }
 
-
-
 .jumbotron {
 	background-color: blue;
 	color: white;
@@ -20,4 +18,9 @@ span {
 .well {
 	background-color: antiqueblue;
 	color: cornflowerblue;
+}
+
+#testimonials {
+	opacity: 0;
+	transition: opacity 1.0s linear 0s;
 }

@@ -10,6 +10,34 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+
+
+	<script type="text/javascript" src="js/testimonials.js">
+	// var testi_idx = 0;
+	// var testi_elem;
+	// var testi_arr = [
+	// 	"<p>Flor is so nice. Her girls have helped us in so many ways. We can't thank them enough. </p><small>Somebody famous, <cite>Somewhere</cite></small>",
+	// 	"<p>Christine is so pretty. </p><small>Anonymous, <cite>Company Unknown</cite></small>",
+	// 	"<p>Keisha is so cute. </p><small>Rock Star, <cite>Place Unknown</cite></small>"
+	// ];
+	// function testi_next () {
+	// 	testi_idx++;
+	// 	testi_elem.style.opacity = 0;
+	// 	setTimeout('testi_ofOne()', 1000);
+	// 	if (testi_idx > (testi_arr.length - 1)) {
+	// 		testi_idx = 0;
+	// 	}
+	// }
+	// function testi_ofOne () {
+	// 	testi_elem.innerHTML = testi_arr[testi_idx];
+	// 	testi_elem.style.opacity = 1;
+	// 	setTimeout('testi_next()', 2000);
+	// }
+	// </script>
+
+
+
+
 </head>
 <body>
 	<div class="jumbotron text-center">
@@ -75,7 +103,9 @@
 		</div>
 	</div>
 	<div class="col-md-12 text-center">
-		<blockquote>1
+		<h2>Why our patients love us</h2>
+		<blockquote id="testimonials"></blockquote>
+<!-- 		<blockquote>1
 			<p>Flor is so nice. Her girls have helped us in so many ways. We can't thank them enough. </p>
 			<small>Anonymous, <cite>Somebody famous</cite></small>
 		</blockquote>
@@ -87,7 +117,8 @@
 			<p>Keisha is so cute. </p>
 			<small>Anonymous, <cite>Company Unknown</cite></small>
 		</blockquote>
-	</div>
+ -->	</div>
+
 	 <div class="col-md-12 text-center">
 		 <p>We currently provide care-giving services around the Los Angeles and Ventura counties</p>
 		 <p>Call us for more information</p>
@@ -103,6 +134,17 @@
 	 </div>
 
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="js/jQuery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+ 	<script>
+ 		testi_elem = document.getElementById("testimonials");
+ 		testi_ofOne();
+ 	</script>
+
+
+
+
+
+
 </body>
 </html>
